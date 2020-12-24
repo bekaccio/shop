@@ -1,0 +1,45 @@
+header {
+  padding: 20px 0 20px 0;
+  background-color: white;
+}
+header .logo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  color: #22262a;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+header .list li {
+  margin-right: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22262a;
+  text-transform: uppercase;
+}
+header .list li:last-child {
+  margin-right: 0;
+}
+
+header .list,
+header .icons,
+header .container {
+  display: flex;
+}
+
+header .icons li {
+  margin-right: 45px;
+}
+header .icons img {
+  width: 18px;
+}
+
+@media screen and (max-width: 578px) {
+  nav {
+    display: none;
+  }
+}

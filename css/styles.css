@@ -1,0 +1,54 @@
+.styles {
+  padding-bottom: 120px;
+}
+
+.styles__top {
+  text-align: center;
+}
+.styles__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.styles__description {
+  font-weight: normal;
+  font-size: 15px;
+  margin: 15px 0 65px;
+  line-height: 1;
+}
+
+.styles__row {
+  position: relative;
+  min-height: 700px;
+}
+
+.styles__image--1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.styles__image--2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 514px;
+  height: 451px;
+}
+
+.styles__image--3 {
+  position: absolute;
+  bottom: 0;
+  right: -38px;
+  width: 228px;
+  height: 281px;
+  border: 22px solid white;
+}
+
+.styles__link {
+  position: absolute;
+  right: 220px;
+  bottom: 50px;
+  color: #22262a;
+}

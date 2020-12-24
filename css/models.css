@@ -1,0 +1,52 @@
+.models {
+  padding-bottom: 86px;
+}
+
+.models__top {
+  text-align: center;
+}
+.models__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.models__description {
+  font-weight: normal;
+  font-size: 15px;
+  margin: 15px 0 65px;
+  line-height: 1;
+}
+
+.models__image {
+  max-width: 100%;
+}
+
+.models__brand {
+  margin-top: 38px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.models__details {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1;
+  margin: 8px 0;
+}
+
+.models__old-price {
+  text-decoration: line-through;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.models__new-price {
+  font-size: 15px;
+  line-height: 22px;
+  margin-left: 20px;
+  font-weight: 500;
+  color: #cf2929;
+}
